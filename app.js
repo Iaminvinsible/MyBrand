@@ -1,8 +1,8 @@
-/////ALERT BOX ///////////////
+e/////ALERT BOX ///////////////
 
 
  var alerted = sessionStorage.getItem('alerted') || '';
      if (alerted != 'yes') {
-      alert("Stay Safe and Stay Happy \n ~Ashwin Uniyal");
+      alert("Welcome to my site :)");
       sessionStorage.setItem('alerted','yes');
     }
